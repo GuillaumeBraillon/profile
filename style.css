@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background: #e7e7e7;
+  color: #57606a;
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #1f2328;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+}
+h2 {
+  color: #57606a;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+a {
+  color: #0969da;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover {
+  color: #0550ae;
+}
+
+img {
+  width: 100px;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+.card {
+  border: 1px solid #989898;
+  background: #fff;
+  border-radius: 0.375rem;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  border: 1px solid #0000;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.button-primary {
+  color: #fff;
+  background: #0969da;
+  border-color: #1b1f2426;
+}
+
+.button-primary:hover {
+  color: #abd1ff;
+}
+
+.img-circle {
+  border-radius: 20%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.title-box {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .card {
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+}
